@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Oswald:wght@400;600&family=Rancho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    background-image: url('../images/wood-bg-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+}
+
+.main {
+    padding: 50px;
+}
+
+.headings {
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Rancho', cursive;
+    font-size: 120px;
+    line-height: .9;
+}
+
+.sub-title {
+    font-family: 'Lateef', cursive;
+    font-size: 50px;
+}
+
+.recipe-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.recipe {
+    background-color: #EFC69B;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.recipe-img {
+    width: 100%;
+    max-width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.recipe-title {
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}

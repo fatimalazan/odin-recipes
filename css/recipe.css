@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Oswald:wght@400;600&family=Rancho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    background-image: url('../images/wood-bg-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.main {
+    background-color: #FFFFFF;
+    margin: 20px 80px;
+    padding: 20px 50px;
+}
+
+
+
+.recipe-title {
+    font-family: 'Rancho', cursive;
+    font-size: 50px;
+    line-height: 2;
+}
